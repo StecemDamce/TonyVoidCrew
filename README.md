@@ -6,7 +6,7 @@
 
 * **Discord:** <https://discord.gg/SgZTW22mJE>
 
-This is the codebase for the Shiptest fork - Voidcrew-LRP.
+This is the codebase for the VoidCrew Fork - TonyVoidCrew.
 
 Voidcrew is a PVE focused SS13 server centered around ship-based gameplay. Instead of everyone being on a station, they have their own shuttles and crews. Travel the cosmos exploring planets, ancient runes, and floating asteroids.
 
