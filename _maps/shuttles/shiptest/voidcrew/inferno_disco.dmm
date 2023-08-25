@@ -167,7 +167,7 @@
 /obj/machinery/atmospherics/components/unary/passive_vent{
 	dir = 1
 	},
-/turf/open/floor/mineral/plasma,
+/turf/open/floor/engine/plasma,
 /area/ship/bridge)
 "zT" = (
 /turf/open/floor/carpet,
