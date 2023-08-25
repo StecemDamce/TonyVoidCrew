@@ -85,8 +85,7 @@
 			CB.Invoke()
 		log_played_names(client.ckey,name,real_name)
 		auto_deadmin_on_login()
-
-			if(client.ckey == "addust")
+	if(client.ckey == "addust")
 		var/mob/living/carbon/carbonmob = src
 		if(istype(carbonmob, /mob/living/carbon))
 			var/obj/item/organ/ears/cat/kitty_ears = new
@@ -95,6 +94,7 @@
 			kitty_ears.Insert(carbonmob, TRUE, FALSE)
 			kitty_tail.Insert(carbonmob, TRUE, FALSE)
 			kitty_tongue.Insert(carbonmob, TRUE, FALSE)
+
 	log_message("Client [key_name(src)] has taken ownership of mob [src]([src.type])", LOG_OWNERSHIP)
 	SEND_SIGNAL(src, COMSIG_MOB_CLIENT_LOGIN, client)
 
