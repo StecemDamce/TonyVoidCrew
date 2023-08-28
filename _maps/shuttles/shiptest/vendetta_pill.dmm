@@ -16,6 +16,12 @@
 /obj/machinery/power/port_gen/pacman/diamond,
 /obj/item/stack/sheet/mineral/diamond/five,
 /obj/item/stack/sheet/mineral/diamond/five,
+/obj/docking_port/mobile{
+	dir = 2;
+	launch_status = 0;
+	port_direction = 8
+	},
+/obj/structure/fans/tiny,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/storage)
 "b" = (
@@ -57,6 +63,7 @@
 /obj/item/ammo_box/magazine/ak47,
 /obj/item/gun/ballistic/automatic/ak47,
 /obj/item/gun/ballistic/automatic/ak47,
+/obj/item/areaeditor,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/storage)
 "y" = (
