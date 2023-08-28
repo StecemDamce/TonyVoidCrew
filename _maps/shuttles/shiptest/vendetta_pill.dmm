@@ -6,7 +6,6 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/machinery/door/window,
 /obj/machinery/computer/cryopod{
 	pixel_y = 8
 	},
@@ -24,12 +23,18 @@
 	preferred_direction = 4;
 	dir = 2
 	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/ship/storage)
-"b" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 8
+	},
 /obj/structure/window/reinforced{
 	dir = 3
 	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/storage)
+"b" = (
 /obj/structure/window/reinforced{
 	dir = 1
 	},
@@ -41,7 +46,6 @@
 	dir = 8;
 	pixel_x = 5
 	},
-/obj/machinery/power/apc/auto_name,
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
@@ -65,7 +69,11 @@
 /obj/item/ammo_box/magazine/ak47,
 /obj/item/gun/ballistic/automatic/ak47,
 /obj/item/gun/ballistic/automatic/ak47,
-/obj/item/areaeditor,
+/obj/item/areaeditor/shuttle,
+/obj/machinery/airalarm/directional/south{
+	pixel_y = -4
+	},
+/obj/machinery/door/window,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/storage)
 "y" = (
@@ -75,16 +83,17 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
 /obj/machinery/power/shuttle/engine/electric{
 	dir = 4
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
-/turf/open/floor/mineral/plastitanium/red,
+/obj/structure/window/reinforced/spawner/east,
+/obj/machinery/atmospherics/components/unary/outlet_injector/on{
+	dir = 4
+	},
+/turf/open/floor/plating/airless,
 /area/ship/storage)
 
 (1,1,1) = {"
