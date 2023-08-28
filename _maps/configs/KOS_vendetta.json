@@ -2,10 +2,9 @@
 	"map_name": "Vendetta-class Pirate Pill",
 	"map_short_name": "Vendetta-class",
 	"prefix": "KOS",
-	"map_path": "_maps/shuttles/shiptest/voidcrew/vendetta_pill.dmm",
+	"map_path": "_maps/shuttles/shiptest/vendetta_pill.dmm",
 	"map_id": "vendetta_pill",
 	"roundstart": false,
-	"limit": 2,
 	"job_slots": {
 		"Pirate": {
 			"outfit": "/datum/outfit/job/assistant",
